@@ -1,0 +1,19 @@
+.icon-bar {
+  padding: 3em 0;
+  text-align: center;
+}
+
+.icon-bar__icon-wrapper {
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  margin: 0.5em;
+}
+
+.icon-bar__icon {
+  width: 100%;
+  height: 100%;
+  &:hover {
+    fill: black;
+  }
+}

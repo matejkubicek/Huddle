@@ -10,29 +10,20 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Poppins:400,700&display=swap" rel="stylesheet">
-  <!-- 
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-  -->
   <!-- Stylesheet -->
   <link rel="stylesheet" href="./css/style.css">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
 </head>
 
-<body>
+<body id="top">
 
   <nav class="nav">
-    <img class="nav__logo" src="./images/logo.svg" alt="logo Huddle">
+    <!-- With full navigation will be nav static-top or sticky -->
+    <a href="#top">
+      <svg class="nav__logo">
+        <use xlink:href="./images/sprite.svg#logo" />
+      </svg>
+    </a>
   </nav>
 
   <header class="site-header">
@@ -43,25 +34,31 @@
       <h1>Build The Community Your Fans Will Love</h1>
       <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
         Create connections with your users as you engage in genuine discussion.</p>
-      <button class="button">Register</button>
+      <a href="#" class="button">Register</a>
     </section>
   </header>
 
   <section class="icon-bar">
     <div class="icon-bar__icon-wrapper">
-      <svg class="icon-bar__icon">
-        <use xlink:href="./images/sprite.svg#facebook" />
-      </svg>
+      <a href="https://www.facebook.com" target="_blank">
+        <svg class="icon-bar__icon">
+          <use xlink:href="./images/sprite.svg#facebook" />
+        </svg>
+      </a>
     </div>
     <div class="icon-bar__icon-wrapper">
-      <svg class="icon-bar__icon">
-        <use xlink:href="./images/sprite.svg#twitter" />
-      </svg>
+      <a href="https://www.twitter.com" target="_blank">
+        <svg class="icon-bar__icon">
+          <use xlink:href="./images/sprite.svg#twitter" />
+        </svg>
+      </a>
     </div>
     <div class="icon-bar__icon-wrapper">
-      <svg class="icon-bar__icon">
-        <use xlink:href="./images/sprite.svg#instagram" />
-      </svg>
+      <a href="https://www.instagram.com" target="_blank">
+        <svg class="icon-bar__icon">
+          <use xlink:href="./images/sprite.svg#instagram" />
+        </svg>
+      </a>
     </div>
   </section>
 
