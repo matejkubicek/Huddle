@@ -7,3 +7,17 @@ body {
   padding: 2em;
   -webkit-font-smoothing: antialiased;
 }
+
+@media only screen and (min-width: 750px) {
+  body {
+    padding: 2em 4em;
+    background-image: url(../images/bg-desktop.svg);
+    background-size: cover;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  body {
+    padding: 2em 8em;
+  }
+}
