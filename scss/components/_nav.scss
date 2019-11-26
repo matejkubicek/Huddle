@@ -1,7 +1,8 @@
 .nav__logo {
   width: 40%;
   height: 40px;
+  fill: #fff;
   &:hover {
-    fill: black;
+    filter: drop-shadow(0 0px 10px #fff);
   }
 }
